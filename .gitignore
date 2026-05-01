@@ -41,3 +41,11 @@ out/
 
 # Serenity reports
 **/site/serenity/
+
+# Playwright
+playwright-tests/node_modules/
+playwright-tests/playwright-report/
+playwright-tests/test-results/
+
+# Local tools
+.claude/
