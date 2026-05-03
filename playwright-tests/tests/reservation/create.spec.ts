@@ -53,7 +53,7 @@ test.describe('POST /reservation - Crear reserva', () => {
         checkOut: '2027-07-05T12:00:00',
         guestsCount: 10,
       },
-    });
+    });  
 
     expect(response.status()).toBe(400);
     const body = await response.json();
