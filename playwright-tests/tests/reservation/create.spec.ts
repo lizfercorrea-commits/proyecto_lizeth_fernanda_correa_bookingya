@@ -8,7 +8,7 @@ test.describe('POST /reservation - Crear reserva', () => {
 
     const response = await request.post('/api/reservation', {
       data: {
-        guestId: guest.id,
+        guestId: guest.id,  
         roomId: room.id,
         checkIn: '2027-06-01T14:00:00',
         checkOut: '2027-06-05T12:00:00',
